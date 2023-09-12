@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form class="mt-5">
+            <div class="form-group">
+              <label for="">Nama Lengkap</label>
+              <input class="form-control" type="text" placeholder="Isikan Nama Anda" required />
+            </div>
+            <div class="form-group">
+              <label for="">Tanggal Lahir</label>
+              <input class="form-control" type="date" placeholder="Isikan Tanggal Lahir Anda" required />
+            </div>
+            <div class="form-group">
+              <label for="">Jenis Kelamin</label>
+              <select class="form-control" name="" id="" required>
+                <option value="" selected disabled>Pilih Jenis Kelamin</option>
+                <option value="">Laki-laki</option>
+                <option value="">Perempuan</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="">Alamat</label>
+              <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="Isikan Alamat Lengkap Anda" required></textarea>
+            </div>
+            <div class="form-group mt-3">
+              <button class="btn btn-danger" type="reset">Reset Data</button>
+              <button class="btn btn-primary" type="submit">Simpan Data</button>
+            </div>
+          </form>
+    </div>
+</body>
+</html>
